@@ -1,0 +1,25 @@
+/*===========================
+    clients-03 css 
+===========================*/
+.client-logo-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--black);
+  }
+
+  .client-logo-three .single-client {
+    margin-top: 30px;
+  }
+  .client-logo-three .single-client img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .client-logo-three .single-client:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }

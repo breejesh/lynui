@@ -1,0 +1,9 @@
+body {
+  color: var(--white);
+  background: var(--black);
+  padding-top: 100px !important; /* navbar fixed */
+}
+  
+.mb-100 {
+  margin-bottom: 100px;
+}
